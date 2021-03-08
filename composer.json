@@ -1,0 +1,19 @@
+{
+    "name": "khalid/facebook-footer-link",
+    "description": "Show author's facebook link bottom of blog with this plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Khalidwebmail",
+            "email": "csewebmail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Facebook\\": "includes/"
+        }
+    }
+}
